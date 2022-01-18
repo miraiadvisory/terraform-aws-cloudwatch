@@ -1,11 +1,32 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file.
 
-<a name="unreleased"></a>
-## [Unreleased]
+### [2.3.1](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v2.3.0...v2.3.1) (2022-01-13)
 
 
+### Bug Fixes
+
+* Added prefix to metric name for alarm to work ([#32](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/32)) ([f1c750f](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/f1c750fb79a82c1b3fbc76ec2e0df6c768e6fa9a))
+
+# [2.3.0](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v2.2.0...v2.3.0) (2021-12-15)
+
+
+### Features
+
+* Added support for custom CIS alarm names ([#29](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/29)) ([9d5d1c4](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/9d5d1c42345ec5f9b01a129a18852a62a93a0267))
+
+# [2.2.0](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v2.1.0...v2.2.0) (2021-12-14)
+
+
+### Bug Fixes
+
+* update CI/CD process to enable auto-release workflow ([#27](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/27)) ([12b9abb](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/12b9abbfd678ca97e856a33a102d76d71c1a7e43))
+
+
+### Features
+
+* Update CIS-Alarms for v1.4.0 of the AWS Benchmark ([#26](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/26)) ([fd33034](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/fd3303464a3ad31a91e21bdf09ab572f387650f8))
 
 <a name="v2.1.0"></a>
 ## [v2.1.0] - 2021-05-03
