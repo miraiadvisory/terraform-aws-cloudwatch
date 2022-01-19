@@ -1,7 +1,8 @@
 locals {
   all_controls = {
     UnauthorizedAPICalls = {
-      pattern     = "{ (($.errorCode=\"*UnauthorizedOperation\") || ($.errorCode=\"AccessDenied*\")) && (($.sourceIPAddress!=\"delivery.logs.amazonaws.com\") && ($.eventName!=\"HeadBucket\")) }"
+      pattern = "{ (($.errorCode=\"*UnauthorizedOperation\") || ($.errorCode=\"AccessDenied*\"))"
+      #pattern     = "{ (($.errorCode=\"*UnauthorizedOperation\") || ($.errorCode=\"AccessDenied*\")) && (($.sourceIPAddress!=\"delivery.logs.amazonaws.com\") && ($.eventName!=\"HeadBucket\")) }"
       description = "Monitoring unauthorized API calls will help reveal application errors and may reduce time to detect malicious activity."
     }
 
