@@ -47,7 +47,8 @@ locals {
     }
 
     SecurityGroupChanges = {
-      pattern     = "{ ($.userAgent != \"elbv2*\") && ($.userAgent != \"eks.amazonaws.com\") && ($.eventName = AuthorizeSecurityGroupIngress) || ($.eventName = AuthorizeSecurityGroupEgress) || ($.eventName = RevokeSecurityGroupIngress) || ($.eventName = RevokeSecurityGroupEgress) || ($.eventName = CreateSecurityGroup) || ($.eventName = DeleteSecurityGroup)}"
+      pattern = "{ ($.eventName = AuthorizeSecurityGroupIngress) || ($.eventName = AuthorizeSecurityGroupEgress) || ($.eventName = RevokeSecurityGroupIngress) || ($.eventName = RevokeSecurityGroupEgress) || ($.eventName = CreateSecurityGroup) || ($.eventName = DeleteSecurityGroup)}"
+      #pattern     = "{ ($.userAgent != \"elbv2*\") && ($.userAgent != \"eks.amazonaws.com\") && ($.eventName = AuthorizeSecurityGroupIngress) || ($.eventName = AuthorizeSecurityGroupEgress) || ($.eventName = RevokeSecurityGroupIngress) || ($.eventName = RevokeSecurityGroupEgress) || ($.eventName = CreateSecurityGroup) || ($.eventName = DeleteSecurityGroup)}"
       description = "Monitoring changes to security group will help ensure that resources and services are not unintentionally exposed."
     }
 
