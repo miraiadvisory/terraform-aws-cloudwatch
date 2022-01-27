@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+### [2.4.1](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v2.4.0...v2.4.1) (2022-01-21)
+
+
+### Bug Fixes
+
+* Update required version for aws provider ([#34](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/34)) ([b7e0147](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/b7e0147c9afe38194f6a4fa041eed7615fbd38dd))
+
+## [2.4.0](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v2.3.1...v2.4.0) (2022-01-19)
+
+
+### Features
+
+* Added account_id to metric_query section ([#33](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/33)) ([fb4dcd8](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/fb4dcd802d895c8215fe1fe25e0df0f7b4d479a7))
+
 ### [2.3.1](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v2.3.0...v2.3.1) (2022-01-13)
 
 
