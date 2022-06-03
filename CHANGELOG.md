@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.2.0](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v3.1.0...v3.2.0) (2022-04-14)
+
+
+### Features
+
+* Allow overriding items for each control in `cis-alarms` module ([#41](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/41)) ([f04d5d1](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/f04d5d1019a724e4a415768113858e7ad9d8422e))
+
+## [3.1.0](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v3.0.0...v3.1.0) (2022-04-12)
+
+
+### Features
+
+* Added wrappers for all modules ([#40](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/40)) ([943debc](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/943debcf60f07bd3ead912aaafe19ddca9451405))
+
+## [3.0.0](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v2.5.0...v3.0.0) (2022-04-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* Added log-stream module, updated versions to 0.13+ (#38)
+
+### Features
+
+* Added log-stream module, updated versions to 0.13+ ([#38](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/38)) ([b426858](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/b42685899793c3ae1733844f07c610e9aa663250))
+
+## [2.5.0](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v2.4.1...v2.5.0) (2022-03-18)
+
+
+### Features
+
+* Added anomaly detection support ([#36](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/issues/36)) ([7fd2eea](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/commit/7fd2eea01d33aeef171424e0530f3a893fddfb38))
+
 ### [2.4.1](https://github.com/terraform-aws-modules/terraform-aws-cloudwatch/compare/v2.4.0...v2.4.1) (2022-01-21)
 
 

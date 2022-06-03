@@ -19,7 +19,7 @@ Note that this example may create resources which cost money. Run `terraform des
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.12.26 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 2.55 |
 
 ## Providers
@@ -31,6 +31,7 @@ No providers.
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_alarm"></a> [alarm](#module\_alarm) | ../../modules/metric-alarm | n/a |
+| <a name="module_alarm_anomaly"></a> [alarm\_anomaly](#module\_alarm\_anomaly) | ../../modules/metric-alarm | n/a |
 | <a name="module_alarm_metric_query"></a> [alarm\_metric\_query](#module\_alarm\_metric\_query) | ../../modules/metric-alarm | n/a |
 | <a name="module_all_lambdas_errors_alarm"></a> [all\_lambdas\_errors\_alarm](#module\_all\_lambdas\_errors\_alarm) | ../../modules/metric-alarm | n/a |
 | <a name="module_aws_lambda_function1"></a> [aws\_lambda\_function1](#module\_aws\_lambda\_function1) | ../fixtures/aws_lambda_function | n/a |
